@@ -31,7 +31,7 @@ var multiItemSlider = (function () {
         });
 
         var position = {
-            getItemMin: function () {
+            getItemMin: function() {
                 var indexItem = 0;
                 _items.forEach(function (item, index) {
                     if (item.position < _items[indexItem].position) {
