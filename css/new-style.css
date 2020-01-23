@@ -6,6 +6,10 @@ body {
     flex-wrap: wrap;
     flex-direction: row;
 }
+.container {
+    width: 65%;
+    margin: 0 auto;
+}
 .space-around {
     justify-content: space-around;
 }
@@ -31,12 +35,12 @@ body {
 
 
 
-
 /* Slider */
 
 .slider {
     position: relative;
     overflow: hidden;
+    margin-bottom: 60px;
 }
 
 .slider__wrapper {
