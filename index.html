@@ -21,11 +21,37 @@
     <link href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" rel="stylesheet">
 
     <link href="css/style.css" rel="stylesheet">
-    <link href="css/custom-style.css" rel="stylesheet">
+    <link href="css/new-style.css" rel="stylesheet">
 </head>
 
 <body>
 
+<nav class="nav flex-container space-around">
+    <div class="nav__item logo">
+        <p>TESMAS</p>
+    </div>
+    <div class="nav__item">
+        <p>8 (8452) 29-41-19</p>
+    </div>
+</nav>
+
+<main class="slider">
+    <div class="slider__wrapper">
+        <div class="slider__item">
+            <div style="background: url('img/slider2.jpg') no-repeat; background-size: cover;">1</div>
+        </div>
+        <div class="slider__item">
+            <div style="background: url('img/slider0.jpg') no-repeat; background-size: cover;">2</div>
+        </div>
+        <div class="slider__item">
+            <div style="background: url('img/slider3.jpg') no-repeat; background-size: cover;">3</div>
+        </div>
+    </div>
+    <a class="slider__control slider__control_left" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
+</main>
+
+<!--
 <header class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <div class="navbar-header">
@@ -39,7 +65,6 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="active"><a href="index.html">8 (8452) 29-41-19</a></li>
-                <!--<li><a href="about.html">ABOUT</a></li>-->
                 </li>
             </ul>
         </div>
@@ -47,41 +72,33 @@
 </header>
 
 <div class="slider">
-    <div class="owl-carousel owl-theme">
-        <div class="slider-item" style="background: url('img/slider2.jpg') no-repeat; background-size: cover;">
-            <div class="slider-content">
-                <h2>Диагностика и ремонт электроники</h2>
-                <a href="#">Подробнее</a>
-            </div>
+    <div class="slider__wrapper">
+        <div class="slider__item">
+            <div style="height: 250px; background: url('img/slider2.jpg') no-repeat; background-size: cover;">1</div>
         </div>
-        <div class="slider-item" style="background: url('img/slider0.jpg') no-repeat">
-            <div class="slider-content">
-                <h2>Диагностика и ремонт</h2>
-                <h2>компьютерной техники</h2>
-                <a href="#">Подробнее</a>
-            </div>
+        <div class="slider__item">
+            <div style="height: 250px; background: url('img/slider0.jpg') no-repeat; background-size: cover;">2</div>
         </div>
-        <div class="slider-item" style="background: url('img/slider3.jpg') no-repeat">
-            <div class="slider-content">
-                <h2>Диагностика и ремонт бытовой техники</h2>
-                <a href="#">Подробнее</a>
-            </div>
+        <div class="slider__item">
+            <div style="height: 250px; background: url('img/slider3.jpg') no-repeat; background-size: cover;">3</div>
         </div>
     </div>
+    <a class="slider__control slider__control_left" role="button"></a>
+    <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
 </div>
 
 <div class="container">
-    <p>ТECМAC - opгaнизaция c бoльшим oпытoм и выcoким ypoвнем пpoфeccиoнaлизмa. ТECМAC гapaнтиpyeт выcoкoe кaчecтвo
-        и выcoкий ypoвень cepвиca. Koмпaния ocyщеcтвляeт гapaнтийный и пocлeгapaнтийный peмoнт шиpoкoгo cпектpa техники c 2013 гoдa.</p>
-    <p>Coтpyдники ТECМAC - пpoфеccиoнaлы, pегyляpнo пpoхoдящие oбyчение и имеющие
-        пpoфильнyю cпециaлизaцию пo диaгнocтике, pемoнтy и oбcлyживaнию paзличнoй техники, oт нoyбyкoв и плaншетoв дo кpyпнoй бытoвoй
+    <p>ТЕСМАС - организация с большим опытом и высоким уровнем профессионализма. ТЕСМАС гарантирует высокое качество
+        и высокий уровень сервиса. Компания осуществляет гарантийный и послегарантийный ремонт широкого спектра техники c 2013 года.</p>
+    <p>Сотрудники ТЕСМАС - профессионалы, регулярно проходящие обучение и имеющие
+        профильную специализацию по диагностике, ремонту и обслуживанию различной техники, от ноутбуков и планшетов до крупной бытовой
         техники.</p>
-    <p>Нaш cеpвиcный центp ocyщеcтвляет выезднoй pемoнт, диaгнocтикy и oбcлyживaние кpyпнoй бытoвoй техники в любoй тoчке Capaтoвa
-        и oблacти.</p>
+    <p>Нaш сервисный центр осуществляет выездной ремонт, диагностику и обьслуживание крупной бытовой техники в любой точке Саратова
+        и области.</p>
 </div>
 
 <div class="anchor-header nopadding">
-    <h1>Нaши прeимущecтвa</h1>
+    <h1>Наши преимущества</h1>
 </div>
 
 <div class="container w">
@@ -89,22 +106,22 @@
         <br><br>
         <div class="col-lg-4">
             <i class="fa fa-desktop"></i>
-            <h4>КAЧECТВO</h4>
-            <p>Мы выпoлняем нaшy рaбoтy кaчecтвeннo c примeнeниeм coврeмeнныx тexнoлoгий и фиpменнoгo oбopyдoвaния</p>
+            <h4>КАЧЕСТВО</h4>
+            <p>Мы выполняем нашу работу качественно c применением современных технологий и фирменного оборудования</p>
         </div>
 
         <div class="col-lg-4">
             <i class="fa fa-cogs"></i>
-            <h4>HAДЁЖHOCTЬ</h4>
-            <p>Haши мacтepa - выcoкоквaлифициpoвaнные пpoфеccионaлы, имeющиe бoльшoй oпыт диaгнocтики, peмoнтa и
-                oбслуживaния тeхники любoгo клacca
+            <h4>НАДЁЖНОСТЬ</h4>
+            <p>Наши мастера - высококвалифицированные профессионалы, имеющие большой опыт диагностики, ремонта и
+                обслуживания техники любого класса
             </p>
         </div>
 
         <div class="col-lg-4">
             <i class="fa fa-eye"></i>
-            <h4>УДOБCTBO</h4>
-            <p>Haши мaстepa пpoвoдят выeзднoй peмoнт крyпнoбытoвoй тeхники в любoй тoчкe Capaтoвa и oблacти</p>
+            <h4>УДОБСТВО</h4>
+            <p>Наши мастера проводят выездной ремонт крупнобытовой техники в любой точке Саратова и области</p>
         </div>
     </div>
     <br><hr>
@@ -140,25 +157,13 @@
 <div id="f">
     <p>ООО "ТЕСМАС", 2013 - 2018</p>
 </div>
-
+-->
 <script src="lib/jquery/jquery.min.js"></script>
 <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 <script src="lib/chart/chart.js"></script>
 
 <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-<script>
-    $(document).ready(function(){
-        $('.owl-carousel').owlCarousel({
-            items: 1,
-            loop: true,
-            autoplay: true,
-            nav: true,
-            dots: true,
-            smartSpeed: 1000,
-            autoplayTimeout: 8000
-        })
-    });
-</script>
+<script src="js/slider.js"></script>
 <script src="js/main.js"></script>
 
 </body>
