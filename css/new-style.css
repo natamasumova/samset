@@ -1,6 +1,13 @@
 body {
     margin: 0;
 }
+article h1 {
+    font-size: 36px;
+}
+
+article {
+    margin-bottom: 30px;
+}
 .flex-container {
     display: flex;
     flex-wrap: wrap;
@@ -12,6 +19,12 @@ body {
 }
 .space-around {
     justify-content: space-around;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+.justify-center {
+    justify-content: center;
 }
 .nav {
     color: #fff;
@@ -31,6 +44,12 @@ body {
     padding: 15px;
     font-weight: 600;
 }
+
+footer {
+    background: #2d2d2d;
+    padding: 20px;
+}
+
 .slider-content {
     position: relative;
 }
@@ -62,9 +81,25 @@ body {
     border: 1px solid #748ce4;
     background-color: #748ce4;
 }
+.benefits, .contacts h1{
+    text-align: center;
+}
+.benefits__item {
+    max-width: 350px;
+}
+.benefits__item h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+.benefits__item i {
+    color: #7A8BC7;
+    font-size: 30px;
+}
 
-
-
+.contacts__content {
+    padding: 30px;
+    background-color: #fff;
+}
 
 /* Slider */
 
@@ -134,4 +169,48 @@ body {
 
 .slider__item > div {
     height: 500px;
+}
+
+.map {
+    width: 800px;
+    height: 600px;
+}
+
+
+/*-------MEDIA-------*/
+
+@media (min-width: 1280px){
+    .map {
+        width: 800px;
+        height: 600px
+    }
+}
+@media (min-width: 1024px){
+    .map {
+        width: 600px;
+    }
+}
+@media (min-width: 855px){
+    .contacts__content{
+        width: 200px;
+    }
+    .map {
+        width: 600px;
+        height: 600px;
+    }
+}
+@media (width: 800px) and (height: 600px){
+    .contacts__content{
+        width: 200px;
+        height: 500px;
+    }
+    .map {
+        width: 500px;
+        height: 560px;
+    }
+}
+@media (max-width: 799px){
+    .map {
+        width: 100vw;
+    }
 }

@@ -22,15 +22,15 @@
 
 <body>
 
-<nav class="nav flex-container space-around">
+<header class="nav flex-container space-around">
     <span class="logo">TESMAS</span>
     <span class="phone">8 (8452) 29-41-19</span>
-</nav>
+</header>
 
 
 
 <main>
-    <div class="slider">
+    <nav class="slider">
         <div class="slider__wrapper">
             <div class="slider__item">
                 <div class="slider-content" style="background: url('img/slider2.jpg') no-repeat; background-size: cover;">
@@ -59,58 +59,78 @@
         </div>
         <a class="slider__control slider__control_left" role="button"></a>
         <a class="slider__control slider__control_right slider__control_show" href="#" role="button"></a>
-    </div>
+    </nav>
 
     <div class="container">
-        <p>ТЕСМАС - организация с большим опытом и высоким уровнем профессионализма. ТЕСМАС гарантирует высокое качество и
-            высокий уровень сервиса. Компания осуществляет гарантийный и послегарантийный ремонт широкого спектра тенхики с
-            2013 года.</p>
-        <p>Сотрудники ТЕСМАС - профессионалы, регулярно проходящие обучение и имеющие профильную специализацию по
-            диагностике, ремонту и обслуживанию различной техники, от ноутбуков и планшетов до крупной бытовой техники.</p>
-        <p>Наш сервисный центр осуществляет выездной ремонт, диагностику и обслуживание крупной бытовой техники в любой
-            точке Саратова и области.</p>
+        <article>
+            <p>ТЕСМАС - организация с большим опытом и высоким уровнем профессионализма. ТЕСМАС гарантирует высокое качество и
+                высокий уровень сервиса. Компания осуществляет гарантийный и послегарантийный ремонт широкого спектра тенхики с
+                2013 года.</p>
+            <p>Сотрудники ТЕСМАС - профессионалы, регулярно проходящие обучение и имеющие профильную специализацию по
+                диагностике, ремонту и обслуживанию различной техники, от ноутбуков и планшетов до крупной бытовой техники.</p>
+            <p>Наш сервисный центр осуществляет выездной ремонт, диагностику и обслуживание крупной бытовой техники в любой
+                точке Саратова и области.</p>
+        </article>
+
+        <article class="benefits">
+            <h1>Наши преимущества</h1>
+            <div class="flex-container justify-center">
+                <section class="benefits__item">
+                    <i class="fa fa-desktop"></i>
+                    <h4>КАЧЕСТВО</h4>
+                    <p>Мы выполняем нашу работу качественно c применением современных технологий и фирменного
+                        оборудования
+                    </p>
+                </section>
+                <section class="benefits__item">
+                    <i class="fa fa-cogs"></i>
+                    <h4>НАДЁЖНОСТЬ</h4>
+                    <p>Наши мастера - высококвалифицированные профессионалы, имеющие большой опыт диагностики, ремонта и
+                        обслуживания техники любого класса
+                    </p>
+                </section>
+                <section class="benefits__item">
+                    <i class="fa fa-eye"></i>
+                    <h4>УДОБСТВО</h4>
+                    <p>Наши мастера проводят выездной ремонт крупнобытовой техники в любой точке Саратова и области</p>
+                </section>
+            </div>
+        </article>
+        <hr>
     </div>
 
+    <article class="contacts">
+        <h1>Контакты</h1>
+        <div class="flex-container justify-center">
+            <div class="contacts__content">
+                <h3>Адрес:</h3>
+                <p>410048, г. Саратов, ул. Чернышевского, 55/3E</p>
+                <h3>Телефон:</h3>
+                <p>8 (8452) 29-41-19</p>
+                <h3>E-mail</h3>
+                <p>tesmas.sar@gmail.com</p>
+                <h3>Режим работы:</h3>
+                <p>
+                    <em>Понедельник - пятница:</em> 8:00 - 22:00<br>
+                    <em>Суббота - воскресенье:</em> 9:00 - 15:00
+                </p>
+            </div>
 
+            <div class="contacts__map">
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.042853261215!2d45.987197895724655!3d51.51242979811408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x19960417d092aeeb!2z0KLQldCh0JzQkNCh!5e0!3m2!1sru!2sru!4v1574183679358!5m2!1sru!2sru"
+                        frameborder="0" style="border:0;" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </article>
 </main>
+
+<footer>
+    <p>ООО "ТЕСМАС", 2013 - 2018</p>
+</footer>
 
 
 <!--
-
-<div class="anchor-header nopadding">
-    <h1>Наши преимущества</h1>
-</div>
-
-<div class="container w">
-    <div class="row centered">
-        <br><br>
-        <div class="col-lg-4">
-            <i class="fa fa-desktop"></i>
-            <h4>КАЧЕСТВО</h4>
-            <p>Мы выполняем нашу работу качественно c применением современных технологий и фирменного оборудования</p>
-        </div>
-
-        <div class="col-lg-4">
-            <i class="fa fa-cogs"></i>
-            <h4>НАДЁЖНОСТЬ</h4>
-            <p>Наши мастера - высококвалифицированные профессионалы, имеющие большой опыт диагностики, ремонта и
-                обслуживания техники любого класса
-            </p>
-        </div>
-
-        <div class="col-lg-4">
-            <i class="fa fa-eye"></i>
-            <h4>УДОБСТВО</h4>
-            <p>Наши мастера проводят выездной ремонт крупнобытовой техники в любой точке Саратова и области</p>
-        </div>
-    </div>
-    <br><hr>
-</div>
-
-<div class="anchor-header">
-    <h1>Контакты</h1>
-</div>
-
 <div class="flex-container">
     <div class="flex-item">
         <div class="contacts">
